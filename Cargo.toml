@@ -1,0 +1,52 @@
+[package]
+name = "unit_sphere_distribution"
+version = "0.0.1"
+
+[[bin]]
+name = "cisd792_final_project"
+
+[dependencies]
+rand = "*"
+time = "*"
+
+[dependencies.autograd]
+git = "https://github.com/kkimdev/autograd"
+
+[dependencies.piston]
+git = "https://github.com/PistonDevelopers/piston"
+
+[dependencies.pistoncore-sdl2_window]
+git = "https://github.com/pistondevelopers/sdl2_window"
+
+[dependencies.pistoncore-glfw_window]
+git = "https://github.com/pistondevelopers/glfw_window"
+
+[dependencies.piston_window]
+git = "https://github.com/PistonDevelopers/piston_window"
+
+[dependencies.camera_controllers]
+git = "https://github.com/PistonDevelopers/camera_controllers"
+
+[dependencies.shader_version]
+git = "https://github.com/PistonDevelopers/shader_version"
+
+[dependencies.vecmath]
+git = "https://github.com/PistonDevelopers/vecmath"
+
+[dependencies.sdl2]
+git = "https://github.com/AngryLawyer/rust-sdl2"
+
+[dependencies.gfx]
+git = "https://github.com/gfx-rs/gfx-rs"
+
+[dependencies.gfx_device_gl]
+git = "https://github.com/gfx-rs/gfx_device_gl"
+
+[dependencies.gfx_macros]
+git = "https://github.com/gfx-rs/gfx_macros"
+
+[dependencies.piston2d-graphics]
+git = "https://github.com/PistonDevelopers/graphics.git"
+
+[dependencies.piston2d-opengl_graphics]
+git = "https://github.com/PistonDevelopers/opengl_graphics.git"
